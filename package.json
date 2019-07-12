@@ -1,0 +1,19 @@
+{
+  "name": "boilerplate-cli",
+  "version": "1.0.0",
+  "description": "boilerplate-cli-description",
+  "homepage": "https://github.com/afeiship/boilerplate-cli",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "bin": {
+    "boilerplate-cli": "bin/cmd.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "require-dir": "^1.2.0",
+    "yargs": "^13.2.4"
+  }
+}
