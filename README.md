@@ -11,3 +11,6 @@
 boilerplate-cli say what-hello -w=hello,fei
 boilerplate-cli jump -d=123
 ```
+
+## resources
+- https://github.com/eridem/cli-tutorial
