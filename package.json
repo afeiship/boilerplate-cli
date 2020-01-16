@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-cli",
+  "name": "@feizheng/boilerplate-cli",
   "version": "1.0.0",
   "description": "boilerplate-cli-description",
   "homepage": "https://github.com/afeiship/boilerplate-cli",
@@ -15,5 +15,11 @@
   "dependencies": {
     "require-dir": "^1.2.0",
     "yargs": "^13.2.4"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@feizheng/rake-git": "^1.2.1"
   }
 }
