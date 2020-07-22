@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 var yargs = require("yargs");
 var { resolve } = require("path");
-var commands = require("../index.js");
+var commands = require("..");
 
 // Switch CWD if specified from options
 var cwd = resolve(yargs.argv.cwd || process.cwd());
