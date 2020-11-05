@@ -1,23 +1,17 @@
 # boilerplate-cli
 > boilerplate-cli-description
 
-## usage
-| api  | params         | description            |
-| ---- | -------------- | ---------------------- |
-| say  | prefix/wow(-w) | Say what u want to say |
-| jump | distance(-d)   | Jump to where          |
-
+## installation
 ```shell
-# debug
-git clone git@github.com:afeiship/boilerplate-cli.git
-npm link
-
-# production
-npm install -g `your-package`
-
-boilerplate-cli say what-hello -w=hello,fei
-boilerplate-cli jump -d=123
+npm install @feizheng/boilerplate-cli
 ```
 
-## resources
-- https://github.com/eridem/cli-tutorial
+## usage
+~~~
+Usage: boilerplate-cli [options]
+
+Options:
+  -V, --version  output the version number
+  -d, --debug    only show cmds, but not clean.
+  -h, --help     display help for command
+~~~

@@ -1,19 +1,19 @@
 #!/usr/bin/env node
-const { Command } = require("commander");
-const chalk = require("chalk");
+const { Command } = require('commander');
+const chalk = require('chalk');
 
 // next packages:
-require("@feizheng/next-js-core2");
-require("@feizheng/next-absolute-package");
+require('@feizheng/next-js-core2');
+require('@feizheng/next-absolute-package');
 
 const { version } = nx.absolutePackage();
 const program = new Command();
-const exec = require("child_process").execSync;
+const exec = require('child_process').execSync;
 
 program.version(version);
 
 program
-  .option("-d, --debug", "only show cmds, but not clean.")
+  .option('-d, --debug', 'only show cmds, but not clean.')
   .parse(process.argv);
 
 nx.declare({
@@ -21,12 +21,12 @@ nx.declare({
     init() {
       const app = new this();
       app.start();
-    },
+    }
   },
   methods: {
     init() {},
     start() {
-      console.log(chalk.green("🚗 hello cli..."));
-    },
-  },
+      console.log(chalk.green('🚗 hello cli.'));
+    }
+  }
 });

@@ -11,6 +11,8 @@
     "boilerplate-cli": "bin/index.js"
   },
   "scripts": {
+    "install": "npm link",
+    "uninstall": "npm unlink",
     "start": "node bin/index.js",
     "t2k": "t2k"
   },
@@ -28,7 +30,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@feizheng/rake-git": "^1.2.1"
+    "@feizheng/rake-git": "^1.2.1",
+    "prettier": "^2.1.2"
   },
   "keywords": [
     "boilerplate",
