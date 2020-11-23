@@ -3,8 +3,8 @@ const { Command } = require('commander');
 const chalk = require('chalk');
 
 // next packages:
-require('@feizheng/next-js-core2');
-require('@feizheng/next-absolute-package');
+require('@jswork/next');
+require('@jswork/next-absolute-package');
 
 const { version } = nx.absolutePackage();
 const program = new Command();

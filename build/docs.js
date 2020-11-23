@@ -4,7 +4,7 @@
   const gulp = require('gulp');
   const exec = require('child_process').execSync;
   const $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*']
+    pattern: ['gulp-*', 'gulp.*', 'del', '@jswork/gulp-*']
   });
 
   const usage = exec('boilerplate-cli -h').toString().trim();

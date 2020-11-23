@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/boilerplate-cli",
+  "name": "@boilerplate-scope/boilerplate-cli",
   "version": "1.0.0",
   "description": "boilerplate-cli-description",
   "homepage": "https://github.com/afeiship/boilerplate-cli",
@@ -11,17 +11,14 @@
     "boilerplate-cli": "bin/index.js"
   },
   "scripts": {
-    "install": "npm link",
-    "uninstall": "npm unlink",
-    "start": "node bin/index.js",
     "build": "gulp",
-    "t2k": "t2k"
+    "release": "release-it"
   },
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@feizheng/next-absolute-package": "^1.0.6",
-    "@feizheng/next-js-core2": "^2.6.0",
+    "@jswork/next": "^1.0.2",
+    "@jswork/next-absolute-package": "^1.0.1",
     "chalk": "^4.1.0",
     "commander": "^6.2.0",
     "gulp-rename": "^2.0.0",
@@ -32,12 +29,12 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@feizheng/rake-git": "^1.2.1",
     "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-load-plugins": "^2.0.5",
     "gulp-replace": "^1.0.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "release-it": "^14.2.1"
   },
   "keywords": [
     "boilerplate",

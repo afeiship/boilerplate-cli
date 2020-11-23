@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm install @feizheng/boilerplate-cli
+npm install @jswork/boilerplate-cli
 ```
 
 ## usage

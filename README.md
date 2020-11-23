@@ -10,7 +10,7 @@
 
 ## installation
 ```shell
-npm install @feizheng/boilerplate-cli
+npm install @boilerplate-scope/boilerplate-cli
 ```
 
 ## usage
@@ -26,14 +26,14 @@ Options:
 ## license
 Code released under [the MIT license](https://github.com/afeiship/boilerplate-cli/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/boilerplate-cli
-[version-url]: https://npmjs.org/package/@feizheng/boilerplate-cli
+[version-image]: https://img.shields.io/npm/v/@boilerplate-scope/boilerplate-cli
+[version-url]: https://npmjs.org/package/@boilerplate-scope/boilerplate-cli
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/boilerplate-cli
+[license-image]: https://img.shields.io/npm/l/@boilerplate-scope/boilerplate-cli
 [license-url]: https://github.com/afeiship/boilerplate-cli/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/boilerplate-cli
+[size-image]: https://img.shields.io/bundlephobia/minzip/@boilerplate-scope/boilerplate-cli
 [size-url]: https://github.com/afeiship/boilerplate-cli/blob/master/dist/boilerplate-cli.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/boilerplate-cli
-[download-url]: https://www.npmjs.com/package/@feizheng/boilerplate-cli
+[download-image]: https://img.shields.io/npm/dm/@boilerplate-scope/boilerplate-cli
+[download-url]: https://www.npmjs.com/package/@boilerplate-scope/boilerplate-cli
