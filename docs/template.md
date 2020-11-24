@@ -3,7 +3,7 @@
 
 ## installation
 ```shell
-npm install @jswork/boilerplate-cli
+npm install @boilerplate-scope/boilerplate-cli
 ```
 
 ## usage
