@@ -24,8 +24,8 @@
     "yargs": "^13.2.4"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "access": "<%= registry.access %>",
+    "registry": "<%= registry.publish %>"
   },
   "devDependencies": {
     "@jswork/next": "^1.0.5",
