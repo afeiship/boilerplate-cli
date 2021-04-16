@@ -10,7 +10,9 @@
 
 ## installation
 ```shell
-npm install @boilerplate-scope/boilerplate-cli
+git clone https://github.com/afeiship/boilerplate-cli.git
+cd boilerplate-cli
+npm i && npm link
 ```
 
 ## usage
