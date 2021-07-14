@@ -14,6 +14,7 @@ program.version(version);
 
 program
   .option('-d, --debug', 'only show cmds, but not clean.')
+  .option('-s, --src <string>', 'source filepath.', './src')
   .parse(process.argv);
 
 nx.declare({
@@ -26,7 +27,7 @@ nx.declare({
   methods: {
     init() {},
     start() {
-      console.log(chalk.green('🚗 hello cli.'));
+      console.log(chalk.green('🚗 hello cli.'), program.src, program.debug);
     }
   }
 });
