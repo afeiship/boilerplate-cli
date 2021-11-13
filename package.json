@@ -2,7 +2,7 @@
   "name": "@boilerplate-scope/boilerplate-cli",
   "version": "1.0.0",
   "description": "boilerplate-cli-description",
-  "homepage": "https://github.com/afeiship/boilerplate-cli",
+  "homepage": "https://js.work",
   "author": {
     "name": "afei",
     "email": "1290657123@qq.com"
@@ -41,5 +41,10 @@
   "keywords": [
     "boilerplate",
     "cli"
-  ]
+  ],
+  "boilerplate": "@boilerplate-scope/boilerplate-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-cli"
+  }
 }
