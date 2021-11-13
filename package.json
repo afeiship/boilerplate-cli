@@ -42,9 +42,9 @@
     "boilerplate",
     "cli"
   ],
-  "boilerplate": "@boilerplate-scope/boilerplate-cli",
+  "boilerplate": "boilerplate-cli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/afeiship/@boilerplate-scope/boilerplate-cli"
+    "url": "https://github.com/afeiship/boilerplate-cli.git"
   }
 }
